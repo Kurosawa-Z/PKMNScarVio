@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+	<style>
+
+	.Scarlet-Violet {
+    width: 1200px;
+    height: 584px;
+    border-color: black;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid;
+    position: relative;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+	}
+
+	.Koraidon{
+	position: absolute;
+    width: 450px;
+    height: 450px;
+    background-image: url(images/koraidon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    left:0px;
+    top: 41px;
+    animation: koraidon 30s ease-in-out infinite;
+    animation-delay: 0s;
+    }
+
+    @keyframes koraidon{
+		0%{ opacity: 0; }
+    	3%{ opacity: 1; }
+    	15%{ opacity: 1; }
+    	16%{ opacity: 0; }
+    	100%{ opacity: 0; }
+    }
+
+    .Miraidon{
+	position: absolute;
+    width: 450px;
+    height: 450px;
+    background-image: url(images/miraidon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 700px;
+    top: 41px;
+    animation: miraidon 30s ease-in-out infinite;
+    animation-delay: 0s;
+    }
+
+    @keyframes miraidon{
+		0%{ opacity: 0; }
+    	16%{ opacity: 0; }
+    	17%{ opacity: 1; }
+    	32%{ opacity: 1; }
+    	33%{ opacity: 0; }
+    	100%{ opacity: 0; }
+    }
+
+    .DetailsX{
+    	position: absolute;
+    	left: 630px;
+   		top: 60px;
+   		color: #FFFF00;
+   		font-family:cursive;
+   		animation: koraidon 30s ease-in-out infinite;
+    	animation-delay: 0s;
+    }
+
+    .DetailsY{
+    	position: absolute;
+    	left: 30px;
+   		top: 60px;
+   		color: #FFFF00;
+   		font-family:cursive;
+   		animation: miraidon 30s ease-in-out infinite;
+    	animation-delay: 0s;
+    }
+
+    .typed1 {
+    	position: absolute;
+  		left: 800px;
+  		top: 60px;
+  		font-family:cursive;
+  		animation: koraidon 30s ease-in-out infinite;
+  		color: #FFFFFF;
+ 		 }
+
+ 	.typed2 {
+    	position: absolute;
+  		left: 630px;
+  		top: 300px;
+  		font-family:cursive;
+  		animation: koraidon 30s ease-in-out infinite;
+  		color: #FFFFFF;
+ 		 }
+
+ 	.typed3 {
+    	position: absolute;
+  		left: 200px;
+  		top: 60px;
+  		font-family:cursive;
+  		animation: miraidon 30s ease-in-out infinite;
+  		color: #FFFFFF;
+ 		 }
+
+ 	.typed4 {
+    	position: absolute;
+  		left: 30px;
+  		top: 300px;
+  		font-family:cursive;
+  		animation: miraidon 30s ease-in-out infinite;
+  		color: #FFFFFF;
+ 		 }
+ 	.borderXR{
+ 		position: absolute;
+ 		width: 0;
+		height: 0;
+		border-left: 50px solid transparent;
+		border-right: 50px solid transparent;
+		border-bottom: 50px solid #FFD700;
+		top: 535px;
+		left: 1150px;
+ 	}
+
+ 	.borderYY{
+ 		position: absolute;
+ 		width: 0;
+		height: 0;
+		border-left: 50px solid transparent;
+		border-right: 50px solid transparent;
+		border-bottom: 50px solid #FFD700;
+		top: 535px;
+		left: 550px;
+		animation: yy 30s ease-in-out infinite;
+  		color: #FFFFFF;
+ 	}
+ 	@keyframes yy {
+ 		0%{ opacity: 1; }
+    	16%{ opacity: 1; }
+    	17%{ opacity: 1; }
+    	32%{ opacity: 1; }
+    	45%{ opacity: 0; }
+    	46%{ opacity: 0; }
+    	100%{ opacity: 0; }
+    }
+ 	.borderXX{
+ 		position: absolute;
+ 		width: 0;
+		height: 0;
+		border-left: 50px solid transparent;
+		border-right: 50px solid transparent;
+		border-top: 50px solid #FFD700;
+		top: -1px;
+		left: 550px;
+ 	}
+ 	.borderXL{
+ 		position: absolute;
+ 		width: 0;
+		height: 0;
+		border-left: 50px solid transparent;
+		border-right: 50px solid transparent;
+		border-top: 50px solid #FFD700;
+		top: -1px;
+		left: -50px;
+ 	}
+ 	.borderYR{
+ 		position: absolute;
+ 		width: 0;
+		height: 0;
+		border-left: 50px solid transparent;
+		border-right: 50px solid transparent;
+		border-top: 50px solid #FFD700;
+		top: -1px;
+		left: 1150px;
+ 	}
+ 	.borderYL{
+ 		position: absolute;
+ 		width: 0;
+		height: 0;
+		border-left: 50px solid transparent;
+		border-right: 50px solid transparent;
+		border-bottom: 50px solid #FFD700;
+		top: 535px;
+		left: -50px;
+ 	}
+
+ 	.scarlet{
+	position: absolute;
+    width: 240px;
+    height: 135px;
+    background-image: url(images/scarlet.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    left:175px;
+    top: 200px;
+    animation: scarlet 30s ease-in-out infinite;
+    animation-delay: 0s;
+    }
+
+    @keyframes scarlet{
+		0%{ opacity: 0; transform: scale(0); top: 200px;}
+    	3%{ opacity: 0; transform: scale(0); top: 200px;}
+    	33%{ opacity: 0; transform: scale(0); top: 200px;}
+    	40%{ opacity: 1; transform: scale(1); top: 200px;}
+    	45%{ opacity: 1; transform: scale(1); top: 20px; }
+    	100%{ opacity: 1; transform: scale(1); top: 20px; }
+    }
+
+    .violet{
+	position: absolute;
+    width: 220px;
+    height: 115px;
+    background-image: url(images/violet.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    left:800px;
+    top: 205px;
+    animation: violet 30s ease-in-out infinite;
+    animation-delay: 0s;
+    }
+
+    @keyframes violet{
+		0%{ opacity: 0; transform: scale(0); top: 205px;}
+    	3%{ opacity: 0; transform: scale(0); top: 205px;}
+    	33%{ opacity: 0; transform: scale(0); top: 205px;}
+    	40%{ opacity: 1; transform: scale(1); top: 205px;}
+    	45%{ opacity: 1; transform: scale(1); top: 30px; }
+    	100%{ opacity: 1; transform: scale(1);  top: 30px;}
+    }
+
+    .bookS{
+	position: absolute;
+    width: 200px;
+    height: 324px;
+    background-image: url(images/priceS.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    left:195px;
+    top: 160px;
+    animation: bookS 30s ease-in-out infinite;
+    animation-delay: 0s;
+    }
+
+     @keyframes bookS{
+		0%{ opacity: 0; transform: scale(0);}
+    	3%{ opacity: 0; transform: scale(0);}
+    	33%{ opacity: 0; transform: scale(0);}
+    	40%{ opacity: 0; transform: scale(0);}
+    	46%{ opacity: 1; transform: scale(1);}
+    	50%{ opacity: 1; transform: scale(1);}
+    	100%{ opacity: 1; transform: scale(1);}
+    }
+
+    .bookV{
+	position: absolute;
+    width: 200px;
+    height: 324px;
+    background-image: url(images/priceV.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    left:810px;
+    top: 160px;
+    animation: bookV 30s ease-in-out infinite;
+    animation-delay: 0s;
+    }
+
+     @keyframes bookV{
+		0%{ opacity: 0; transform: scale(0);}
+    	3%{ opacity: 0; transform: scale(0);}
+    	33%{ opacity: 0; transform: scale(0);}
+    	40%{ opacity: 0; transform: scale(0);}
+    	46%{ opacity: 1; transform: scale(1);}
+    	50%{ opacity: 1; transform: scale(1);}
+    	100%{ opacity: 1; transform: scale(1);}
+    }
+
+    .typed5 {
+    	position: absolute;
+  		left: 300px;
+  		top: 470px;
+  		font-family:cursive;
+  		animation: typed5 30s ease-in-out infinite;
+  		color: #FFFF00;
+ 		 }
+ 	@keyframes typed5{
+		0%{ opacity: 0; transform: scale(0);}
+    	3%{ opacity: 0; transform: scale(0);}
+    	33%{ opacity: 0; transform: scale(0);}
+    	40%{ opacity: 0; transform: scale(0);}
+    	46%{ opacity: 1; transform: scale(1);}
+    	50%{ opacity: 1; transform: scale(1);}
+    	100%{ opacity: 1; transform: scale(1);}
+    }
+ 	.typed6 {
+    	position: absolute;
+  		left: 465px;
+  		top: 500px;
+  		font-family:cursive;
+  		animation: typed6 30s ease-in-out infinite;
+  		color: #FFFF00;
+ 		 }
+ 	@keyframes typed6{
+		0%{ opacity: 0; transform: scale(0);}
+    	3%{ opacity: 0; transform: scale(0);}
+    	33%{ opacity: 0; transform: scale(0);}
+    	40%{ opacity: 0; transform: scale(0);}
+    	46%{ opacity: 1; transform: scale(1);}
+    	50%{ opacity: 1; transform: scale(1);}
+    	100%{ opacity: 1; transform: scale(1);}
+    }
+ 	.typed7 {
+    	position: absolute;
+  		left: 465;
+  		top: 525px;
+  		font-family:cursive;
+  		animation: typed7 30s ease-in-out infinite;
+  		color: #FFFF00;
+ 		 }
+ 	@keyframes typed7{
+		0%{ opacity: 0; transform: scale(0);}
+    	3%{ opacity: 0; transform: scale(0);}
+    	33%{ opacity: 0; transform: scale(0);}
+    	40%{ opacity: 0; transform: scale(0);}
+    	46%{ opacity: 1; transform: scale(1);}
+    	50%{ opacity: 1; transform: scale(1);}
+    	100%{ opacity: 1; transform: scale(1);}
+    }
+
+    .typed8 {
+    	position: absolute;
+  		left: 465px;
+  		top: 200px;
+  		font-family: cursive;
+  		animation: typed8 30s ease-in-out infinite;
+  		color: #FFF;
+  		z-index: 10;
+ 		 }
+ 	@keyframes typed8{
+		0%{ opacity: 0; transform: scale(0);}
+		83%{ opacity: 0; transform: scale(0);}
+    	85%{ opacity: 1; transform: scale(1);}
+    	100%{ opacity: 1; transform: scale(1);}
+    }
+
+    .Close {
+    width: 1200px;
+    height: 584px;
+    border-color: black;
+    background-image: url(images/paldea.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid;
+    position: relative;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+ 	z-index: 10;
+ 	animation: Close 30s ease-in-out infinite;
+	}
+
+	@keyframes Close {
+		0%{top:600px;}
+    	50%{top:600px;}
+    	77%{top:600px;}
+    	80%{top:0px;}
+    	100%{top:0px;}
+	}
+
+	.Charmander{
+	position: absolute;
+    width: 150px;
+    height: 125px;
+    background-image: url(images/charmander.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 450px;
+  	top: 120px;
+    animation: charmander 30s ease-in-out infinite;
+    animation-delay: 0s;
+    z-index: 12;
+    }
+
+    @keyframes charmander{
+		0%{ opacity: 0; transform: scale(0);}
+		83%{ opacity: 0; transform: scale(0);}
+    	85%{ opacity: 1; transform: scale(1);}
+    	100%{ opacity: 1; transform: scale(1);}
+    }
+
+    .Floragato{
+	position: absolute;
+    width: 115px;
+    height: 120px;
+    background-image: url(images/floragato.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 600px;
+    top: 120px;
+    animation: floragato 30s ease-in-out infinite;
+    animation-delay: 0s;
+    z-index: 12;
+    }
+
+    @keyframes floragato{
+		0%{ opacity: 0; transform: scale(0);}
+		83%{ opacity: 0; transform: scale(0);}
+    	85%{ opacity: 1; transform: scale(1);}
+    	100%{ opacity: 1; transform: scale(1);}
+    }
+    .Froakie{
+	position: absolute;
+    width: 115px;
+    height: 120px;
+    background-image: url(images/froakie.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 360px;
+    top: 225px;
+    animation: froakie 30s ease-in-out infinite;
+    animation-delay: 0s;
+    z-index: 12;
+    }
+
+    @keyframes froakie{
+		0%{ opacity: 0; transform: scale(0);}
+		83%{ opacity: 0; transform: scale(0);}
+    	85%{ opacity: 1; transform: scale(1);}
+    	100%{ opacity: 1; transform: scale(1);}
+    }
+
+    .Pikachu{
+	position: absolute;
+    width: 115px;
+    height: 120px;
+    background-image: url(images/pikachu.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 700px;
+    top: 225px;
+    animation: pikachu 30s ease-in-out infinite;
+    animation-delay: 0s;
+    z-index: 12;
+    }
+
+    @keyframes pikachu{
+		0%{ opacity: 0; transform: scale(0);}
+		83%{ opacity: 0; transform: scale(0);}
+    	85%{ opacity: 1; transform: scale(1);}
+    	100%{ opacity: 1; transform: scale(1);}
+    }
+
+    .tpc{
+	position: absolute;
+    width: 619px;
+    height: 210px;
+    background-image: url(images/TPC.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 0px;
+  	top: -90px;
+    animation: tpc 30s ease-in-out infinite;
+    animation-delay: 0s;
+    z-index: 12;
+    }
+
+    @keyframes tpc{
+		0%{ opacity: 0; transform: scale(0);}
+		83%{ opacity: 0; transform: scale(0);}
+    	85%{ opacity: 1; transform: scale(1);}
+    	100%{ opacity: 1; transform: scale(1);}
+    }
+
+    .ns{
+	position: absolute;
+    width: 125px;
+    height: 25px;
+    background-image: url(images/NS.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 1050px;
+  	top: 50px;
+    animation: ns 30s ease-in-out infinite;
+    animation-delay: 0s;
+    z-index: 12;
+    }
+
+    @keyframes ns{
+		0%{ opacity: 0; transform: scale(0);}
+		83%{ opacity: 0; transform: scale(0);}
+    	85%{ opacity: 1; transform: scale(1);}
+    	100%{ opacity: 1; transform: scale(1);}
+    }
+	</style>
+
+	<body>
+		<div class="Scarlet-Violet">
+			<div class="Koraidon"></div>
+			<div class="Miraidon"></div>
+			<h2 class="DetailsX">
+			Name: </br> Type: </br> Tera type: </br></br></br></br> Details:
+			</h2>
+					<h2 class="typed1">Koraidon </br> Fighting/Dragon </br> Dragon</h2>
+					<h2 class="typed2"> This seems to be the Winged King </br>mentioned in an old expedition journal. </br> It was said to have split the land with its bare fists.</h2>
+
+			<h2 class="DetailsY">
+			Name: </br> Type: </br> Tera type: </br></br></br></br> Details:
+			</h2>
+					<h2 class="typed3">Miraidon </br> Electric/Dragon </br> Dragon</h2>
+					<h2 class="typed4"> Much remains unknown about this creature. </br> It resembles Cyclizar, but it is far more </br> ruthless and powerful.</h2>
+
+			<div class="scarlet"></div>
+						<div class="bookS"></div>
+			<div class="violet"></div>
+						<div class="bookV"></div>
+
+			<h2 class="typed5"> Available worldwide Friday, November 18, 2022</h2s>
+			<h3 class="typed6"> Preorders now available at</h3>
+			<h3 class="typed7"> participating retailers* and on Nintendo eShop!</h3>
+
+		<div class="borderXR"></div>
+		<div class="borderXL"></div>
+		<div class="borderXX"></div>
+		<div class="borderYY"></div>
+		<div class="borderYR"></div>
+		<div class="borderYL"></div>
+
+		<div class="Close"></div>
+			<h1 class="typed8"> Preorder now!!!</h1>
+		</div>
+
+		<div class="Charmander"></div>
+		<div class="Floragato"></div>
+		<div class="Froakie"></div>
+		<div class="Pikachu"></div>
+		<div class="tpc"></div>
+		<div class="ns"></div>
+	</body>
+
+
+
+
+
+
+</html>
